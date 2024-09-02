@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Watch</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Soch EduCare</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/11zon_cropped (1).png" class="image" alt="">
+         <h3 class="name">Soch EduCare</h3>
+         <p class="role">welcome to Soch EduCare</p>
+         <a href="profile.html" class="btn">View Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/11zon_cropped (1).png" class="image" alt="">
+      <h3 class="name">Soch EduCare</h3>
+      <p class="role">Welcome to Soch EduCare</p>
+      <a href="profile.html" class="btn">View Profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+   </nav>
+
+</div>
+
+<section class="watch-video">
+
+   <div class="video-container">
+      <div class="video">
+         <video src="images/vid-1.mp4" controls poster="images/post-1-1.png" id="video"></video>
+      </div>
+      <h3 class="title">Complete HTML tutorial (part 01)</h3>
+      <div class="info">
+         <p class="date">"Invest in yourself. Your career is the engine of your wealth." </p>
+    
+      </div>
+      <div class="tutor">
+         <img src="images/sanku.jpeg" alt="">
+         <div>
+            <h3>Sanket Rahangdale</h3>
+            <span>Full Stack Mentor</span>
+         </div>
+      </div>
+      <form action="" method="post" class="flex">
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+         <button><i class="far fa-heart"></i><span>like</span></button>
+      </form>
+      <p class="description">
+         "Unlock your potential with our courses, designed to equip you with the skills and knowledge needed to excel in your career. Every lesson is crafted to ensure you gain valuable insights, empowering you to achieve your goals. Take the first step towards success and explore the endless opportunities that await you. Enroll now and be a part of a community that is committed to learning, growth, and excellence. Your journey to greatness begins here—let's build your future together!"
+
+
+      </p>
+   </div>
+
+</section>
+
+<section class="comments">
+
+   <h1 class="heading">5 comments</h1>
+
+   <form action="" class="add-comment">
+      <h3>Add comments</h3>
+      <textarea name="comment_box" placeholder="enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
+      <input type="submit" value="add comment" class="inline-btn" name="add_comment">
+   </form>
+
+   <h1 class="heading">User comments</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="user">
+            <img src="images/11zon_cropped (1).png" alt="">
+            <div>
+               <h3>Aaditya Patel</h3>
+              
+            </div>
+         </div>
+         <div class="comment-box">"This course is a game-changer! The content is incredibly well-structured, and the instructors are very knowledgeable. Highly recommend it to anyone looking to advance their skills!"</div>
+         <form action="" class="flex-btn">
+            <input type="submit" value="edit comment" name="edit_comment" class="inline-option-btn">
+            <input type="submit" value="delete comment" name="delete_comment" class="inline-delete-btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/11zon_cropped (1).png" alt="">
+            <div>
+               <h3>Alok Deshmukh</h3>
+               
+            </div>
+         </div>
+         <div class="comment-box">"I’m loving the interactive elements of this course. It’s engaging and provides practical insights that are directly applicable to real-world scenarios. Great job!"</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/11zon_cropped (1).png" alt="">
+            <div>
+               <h3>Venkat Abhilas</h3>
+               
+            </div>
+         </div>
+         <div class="comment-box">"Fantastic learning experience! The resources provided are top-notch, and the support from the tutors has been exceptional. I feel much more confident in my abilities now."
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/11zon_cropped (1).png" alt="">
+            <div>
+               <h3>john Wisely</h3>
+               
+            </div>
+         </div>
+         <div class="comment-box">"The course exceeded my expectations. The lessons are clear and concise, and the hands-on projects are a great way to apply what I’ve learned. Thanks for a wonderful educational experience!"</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/11zon_cropped (1).png" alt="">
+            <div>
+               <h3>Abhisekh Jadav</h3>
+               
+            </div>
+         </div>
+         <div class="comment-box">"I’ve gained so much from this course already. The material is relevant, and the teaching style is effective. I’m excited to continue learning and growing my skills!"</div>
+      </div>
+
+    
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2024 by <span>Soch EduCare</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+   
+</body>
+</html>
